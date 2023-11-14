@@ -185,11 +185,11 @@ p{
 /* Style for the falling object */
 .falling-object {
   top: -50px;
-  animation: fallAnimation 1200ms ease-in-out; /* Apply the animation */
+  animation: zoomin 1200ms ease-in-out; /* Apply the animation */
 }
 
 /* Keyframes for the falling animation */
-@keyframes fallAnimation {
+@keyframes zoomin {
   0% {
     background-size: 180px;
   }
