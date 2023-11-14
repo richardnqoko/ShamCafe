@@ -1,0 +1,144 @@
+*{
+  font-family:boulder;
+}
+body {
+    font-size: 15pt;
+    margin:0 auto;
+}
+
+header{
+  background-color: #000000;
+  color: #ffffff;
+  padding:10px;
+  height:5vh;
+  font-size:30px;
+  font-weight:bold;
+  position:fixed;
+  width:100vw;
+}
+
+section{
+  padding:5px;
+}
+
+footer{
+  padding:10px;
+  background-color:#101020;
+  color:#ffffff;
+  height:30vh;
+  
+}
+
+.subtext{
+  text-align:center;
+  font-weight:bold;
+  font-size:22px;
+  margin:10px;
+}
+.subsection{
+  padding:10px;
+  height:60vh;
+}
+
+.item{
+  margin:5px;
+  height:40vh;
+  width:26vh;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  border-radius:4px;
+}
+.item-img{
+  width:100%;
+  height:54%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:105%;
+  border-radius:4px 4px 0 0;
+}
+
+.item-info{
+  padding:5px;
+  font-size:16px;
+}
+
+.menu{
+  flex-direction:column;
+  display:flex;
+}
+
+.menu-btn{
+  width:100%;
+  height:30px;
+  border-radius:50px;
+  background-color:#000000;
+  color:#ffffff;
+  border:none;
+}
+.menu-pair{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.quantity{
+  width:50%;
+  height:24px;
+  text-align:center;
+  border-radius:50px;
+  border:1px solid silver;
+}
+
+.circle{
+  width:20%;
+  height:30px;
+  margin-bottom:8px;
+  margin-top:8px;
+  border-radius:50px;
+  border:none;
+  font-size:16px;
+  font-weight:bold;
+  background-color:#faad11;
+}
+
+.item-price{
+  font-weight:bold;
+}
+
+.header-slides{
+  background-image:linear-gradient(-45deg,#faad11, #000000);
+  height:95vh;
+  color:#ffffff;
+  padding:20px;
+}
+
+.social-links{
+  text-align:left;
+  font-size:14px;
+  color:#ffffff;
+}
+
+.link-btn{
+  background:transparent;
+  border:none;
+  color:#ffffff;
+  font-size:20px;
+  margin:2px;
+}
+
+.footer-left{
+  font-size:16px;
+}
+
+.opening-hours{
+  font-size:16px;
+  text-align:center;
+  color:#faad11;
+}
+p{
+  color:#ffffff;
+}
+
+#food{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}

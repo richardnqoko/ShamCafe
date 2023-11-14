@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cheese Omelet",
+    "price": 49.99,
+    "image": "img/omelet.jpeg"
+  },
+  {
+    "name":"Cappuccino",
+    "price": 24.99,
+    "image": "img/cappuccino.jpeg"
+},
+ {
+   "name": "Muffins",
+   "price": 19.99,
+   "image": "img/muffins.jpeg"
+ },
+  {
+    "name": "Smoothie",
+    "price": 34.99,
+    "image": "img/smoothie.jpeg"
+  },
+   {
+     "name": "Big Breakfast",
+     "price": 64.99,
+     "image": "img/big_breakfast.jpeg"
+   },
+    {
+      "name": "Milkshake",
+      "price": 28.99,
+      "image": "img/milkshake.jpeg"
+    }
+]
