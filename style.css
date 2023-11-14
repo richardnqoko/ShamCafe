@@ -150,7 +150,6 @@ p{
   background-repeat:no-repeat;
   background-position:center;
   background-size:360px;
-  transition:ease-in-out 2s;
 }
 
 .slide-text{
@@ -181,4 +180,20 @@ p{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+/* Style for the falling object */
+.falling-object {
+  top: -50px;
+  animation: fallAnimation 1200ms ease-in-out; /* Apply the animation */
+}
+
+/* Keyframes for the falling animation */
+@keyframes fallAnimation {
+  0% {
+    background-size: 180px;
+  }
+  100% {
+    background-size: 100%;
+  }
 }
