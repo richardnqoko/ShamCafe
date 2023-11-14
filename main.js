@@ -20,7 +20,7 @@ function menu(items){
       container.innerHTML = `<div class="item">
               <div class="item-img" style="background-image:url('${item.image}')"></div>
               <div class="item-info">
-                  <div id="food">
+                  <div class="menu-pair">
                     <div class="item-name">${item.name}</div>
                     <div class="item-price">R${item.price}</div>
                   </div>
