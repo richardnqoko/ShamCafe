@@ -197,3 +197,18 @@ p{
     background-size: 90%;
   }
 }
+
+
+iframe{
+  width:100%;
+  height:80%;
+  margin-top:10px;
+  box-shadow:0 0 6px rgba(0,0,0,0.3);
+  border-radius:5px;
+}
+
+.locator{
+  margin-top:30px;
+  text-align:center;
+  font-weight:bold;
+}
