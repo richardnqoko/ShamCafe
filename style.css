@@ -10,7 +10,7 @@ header{
   background-color: #000000;
   color: #ffffff;
   padding:10px;
-  height:5vh;
+  height:30px;
   font-size:30px;
   font-weight:bold;
   position:fixed;
@@ -104,10 +104,10 @@ footer{
 }
 
 .header-slides{
-  background-image:linear-gradient(-45deg,#faad11, #000000);
+  background-image:linear-gradient(-200deg,#faad11, #000000);
   height:95vh;
   color:#ffffff;
-  padding:20px;
+  padding-top:60px;
 }
 
 .social-links{
@@ -141,4 +141,20 @@ p{
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
+}
+
+.slide-image{
+  width:400px;
+  height:320px;
+  background-image:url("img/slides/milkshakes.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:360px;
+}
+
+.slide-text{
+  width:100%;
+  height:120px;
+  text-align:center;
+  margin-top: 40px;
 }
